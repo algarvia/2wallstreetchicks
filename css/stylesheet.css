@@ -96,12 +96,23 @@ a:hover {
     }
     .nav li {
         font-size: 1.25rem;
-        padding-left: 1.5%;
-        padding-right: 1.5%;
+        padding-left: 1%;
+        padding-right: 8%;
     }
 }
 
 @media screen and (max-width: 480px ){
+    .header {
+        height: 25%;
+    }
+
+    .logo {
+        height: 40%;
+    }
+
+    .nav {
+        height: 40%;
+    }
     .nav li {
         font-size: 1rem;
         padding-top: 1%;
@@ -139,6 +150,7 @@ a:hover {
 @media screen and (max-width: 600px ){
     .about h1 {
         padding-top: 70%;
+        padding-left: 10%;
     }   
 }  
 /* END ABOUT */
@@ -169,6 +181,7 @@ a:hover {
     text-decoration-style: none;
     font-size: 1.75rem;
     margin: 0 auto;
+    padding-left: 0%;
 }
 
 .servicesimg {
@@ -189,8 +202,9 @@ a:hover {
         padding-top: 40%;
     }
     .services li {
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         padding: 5%;
+        padding-left: 0;
     }
     .servicesimg {
         width: 20%;
@@ -341,13 +355,13 @@ a:hover {
         font-size: 1rem;
         line-height: 1.2rem;
     }
+    .team {
+        padding-top: 30%;
+    }
 }
 
 
 @media screen and (max-width: 960px ){
-    .team {
-        padding-top: 40%;
-    }
     .melissadesc {
         width: 100%;
         float: left;
