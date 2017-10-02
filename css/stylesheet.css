@@ -411,12 +411,17 @@ a:hover {
     background-color: rgb(242, 242, 242);
     color: #4D4D4D;
     padding-top: 2%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     font-size: 1.25rem;
     line-height: 1.25rem;
     display: block;
     text-align: center;
- } 
+ }
+ 
+ .footer li {
+     padding-top: .5%;
+     padding-bottom: .5%;
+ }
 
 #twitter {
     color: rgb(0, 172, 237);
@@ -431,8 +436,8 @@ a:hover {
 @media screen and (max-width: 600px) {
     .footer li {
         font-size: 1rem;
-        padding-top: 1%;
-        padding-bottom: 1%;               
+        padding-top: .5%;
+        padding-bottom: .5%;               
     }
 
     #copyright {
@@ -441,8 +446,9 @@ a:hover {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1400px) {
-    .footer {
-        padding-top: 0%;
-        padding-bottom: 1%;
+    .footer li {
+        font-size: 1.1rem;
+        padding-top: .5%;
+        padding-bottom: .5%;
     }
 }
