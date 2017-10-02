@@ -81,11 +81,7 @@ a:hover {
     color: #f442d7; 
 }
 
-@media screen and (max-width: 960px ) {
-    .header {
-        position: relative;
-    }
-
+@media screen and (min-width: 481px) and (max-width: 960px ) {
     .logo {
         width: 100%;
         height: auto;
@@ -98,6 +94,7 @@ a:hover {
         text-align: center;
         height: auto;
     }
+
     .nav li {
         font-size: 1.25rem;
         padding-left: 0%;
@@ -106,9 +103,24 @@ a:hover {
 }
 
 @media screen and (max-width: 480px ){
+    .header {
+        /*position: relative;*/
+        height: auto;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    
+    .nav {
+        display: none;
+        float: left;
+    }
+    
     .nav li {
-        font-size: 1rem;
-        padding-top: 1%;
+        display: none;
     }   
 }
 /* END HEADER */
@@ -122,6 +134,8 @@ a:hover {
     background-size: cover;
     text-align: center;
     color: #4D4D4D;
+    width: auto;
+    margin: 0 auto;
 }
 
 .about h1 {
@@ -144,6 +158,7 @@ a:hover {
     .about h1 {
         padding-top: 40%;
         padding-left: 10%;
+        padding-bottom: 0%;
     }   
 }  
 /* END ABOUT */
@@ -165,7 +180,7 @@ a:hover {
 .services h1 {
     width: 30%;
     margin: 0 auto;
-    border-bottom: .125rem solid lightgray;
+    /*border-bottom: .125rem solid lightgray;*/
 }
 
 .services li {
@@ -187,16 +202,16 @@ a:hover {
     .services {
         width: 100%;
         height: auto;
-        padding-top: 10%;
+        padding-top: 5%;
         overflow: hidden;
     }
 
     .services h1 {
-        padding-top: 10%;
+        padding-top: 0%;
     }
     .services li {
         font-size: 1.1rem;
-        padding: 5%;
+        padding: 4%;
         padding-left: 0;
     }
     .servicesimg {
@@ -349,7 +364,7 @@ a:hover {
         line-height: 1.2rem;
     }
     .team {
-        padding-top: 28%;
+        padding-top: 10%;
     }
 }
 
@@ -413,10 +428,10 @@ a:hover {
 }    
 
 @media screen and (max-width: 480px) {
-    .footer {
+    .footer li {
         font-size: 1rem;
-        padding-top: 5%;
-        padding-bottom: 5%;       
+        padding-top: 1%;
+        padding-bottom: 1%;               
     }
 
     #copyright {
