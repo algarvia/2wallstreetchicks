@@ -1,12 +1,19 @@
 * {
     font-family: Garamond, serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    }
 }
 
 html, body {
-    width: 100%; /* Added */
-    height: 100%; /* Added */
-    overflow-x: hidden; /* Added the above to deal with white space in mobile view*/
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     font-size: 16px;
@@ -20,7 +27,7 @@ html, body {
 /* HEADER SECTION */
 .header {
     width: 100%;
-    height: 100px;
+    height: 110px;
     text-align: center;
     position: fixed;
     margin: 0 auto;
@@ -28,7 +35,7 @@ html, body {
 }
 
 #wall {
-    font-size: 2rem;
+    font-size: 3rem;
     opacity: .5;
     color: #f442d7;
 }
@@ -128,28 +135,32 @@ a:hover {
 
 /* ABOUT */
 .about {
-    background: url("http://www.moraterapibursa.com/wp-content/uploads/2017/03/8f970e_7ccbb5e8748542889818bb221240b868.jpg");
+    background-image: url(../images/deniz-altindas-38128.jpg);
     height: 800px;
-    repeat: no-repeat;
+    resize: no-repeat;
     background-size: cover;
     text-align: center;
-    color: #4D4D4D;
+    /* color: #4D4D4D; */
+    color: #f442d7;
+    opacity: .90;
     width: auto;
     margin: 0 auto;
 }
 
 .about h1 {
-    padding-top: 20%;
-    float: left;
+    padding-top: 15%;
+    /*float: left;*/
     text-align: center;
-    padding-left: 15%;
+    /*padding-left: 15%;*/
+    opacity: .99;
+    font-weight: bold;
     font-size: 2rem;
     position: relative;
 }
 
 @media screen and (min-width: 601px) and (max-width: 960px) {
     .about h1 {
-        padding-top: 40%;
+        padding-top: 20%;
     }
 }
 
@@ -203,7 +214,8 @@ a:hover {
     .services {
         width: 100%;
         height: auto;
-        padding-top: 5%;
+        padding-top: 15%;
+        padding-bottom: 15%;
         overflow: hidden;
     }
 
@@ -213,7 +225,7 @@ a:hover {
     .services li {
         font-size: 1rem;
         padding: 4%;
-        padding-left: 0;
+        /* padding-left: 0; */
     }
     .servicesimg {
         width: 20%;
@@ -224,7 +236,7 @@ a:hover {
 
 @media screen and (min-width: 700px) and (max-width: 800px) {
     .services {
-        padding-top: 30%;
+        padding-top: 20%;
     }
 }
 
@@ -392,7 +404,7 @@ a:hover {
 
 @media screen and (min-width: 601px) and (max-width: 960px ){
     .team {
-        padding-top: 20%;
+        padding-top: 15%;
     }
 
     .melissadesc {
