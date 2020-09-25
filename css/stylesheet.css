@@ -35,8 +35,9 @@ html, body {
 
 #wall {
     font-size: 3rem;
-    opacity: .5;
-    color: #f442d7;
+    <!--opacity: .5;-->
+    <!--color: #f442d7;-->
+    color: black;
 }
 
 .logo {
