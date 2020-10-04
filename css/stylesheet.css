@@ -219,6 +219,10 @@ a:hover {
     height: auto;
 }
 
+.both {
+    width: 10%;
+    height: auto;    
+}
 
 @media screen and (max-width: 700px){
     .services {
