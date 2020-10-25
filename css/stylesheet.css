@@ -442,7 +442,8 @@ a:hover {
     clear: both;
     background-color: rgb(242, 242, 242);
     color: #4D4D4D;
-    padding-top: 2%;
+    /*padding-top: 2%;*/
+    padding-top: 3.2%;
     padding-bottom: 2%;
     font-size: 1.25rem;
     line-height: 1.25rem;
