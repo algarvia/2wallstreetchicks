@@ -175,6 +175,7 @@ a:hover {
         padding-left: 5%;
         /*padding-bottom: 0%;*/
         font-size: 1.6rem;
+        
     }   
     #informa {
         font-size: 1.18rem;
@@ -190,12 +191,15 @@ a:hover {
     background-color: rgb(242, 242, 242);
     width: 100%;
     color: #4D4D4D;
-    height: 850px;
+    /*height: 850px;*/
+    height: 650px;
     text-align: center;
     float: left;
     margin: 0 auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    /*padding-top: 10%;*/
+    padding-top: 5%;
+    /*padding-bottom: 10%;*/
+    padding-bottom: 5%;
    
 }
 
@@ -208,7 +212,8 @@ a:hover {
 
 .services li {
     display: list-item;
-    padding: 1.5%;
+    /*padding: 1.5%;*/
+    padding: 2.5%;
     text-decoration-style: none;
     font-size: 1.5rem;
     margin: 0 auto;
@@ -223,23 +228,25 @@ a:hover {
 .both {
     width: 10%;
     height: auto;
-  
-}
+  }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: /*700px*/801px){
     .services {
         width: 100%;
         height: auto;
-        padding-top: 15%;
-        padding-bottom: 15%;
+        /*padding-top: 15%;
+        padding-bottom: 15%;*/
+        padding-top: 5%;
+        padding-bottom: 5%;
         overflow: hidden;
     }
 
     .services h1 {
-        padding-top: 10%;
+        /*padding-top: 10%;*/
+        padding-top: 5%;
     }
     .services li {
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 4%;
     }
     .servicesimg {
@@ -249,16 +256,19 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 701px) and (max-width: 800px) {
+@media screen and (min-width: /*701px*/601px) and (max-width: 800px) {
     .services {
-        padding-top: 20%;
+        /*padding-top: 20%;*/
+        /*padding-top: 5%;*/
+        /*padding-bottom: 5%;*/
     }
-}
+} 
 
-
-@media screen and (min-width: 801px) and (max-width: 968px) {
+@media screen and (min-width: 801px) and (max-width: /*968*/1600px) {
     .services {
-        padding-top: 25%;
+        /*padding-top: 25%;*/
+        /*padding-top: 5%;*/
+        padding-bottom: 5%;
     }
 }
 
