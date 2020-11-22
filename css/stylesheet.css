@@ -35,9 +35,9 @@ html, body {
 
 #wall {
     font-size: 3rem;
-    <!--opacity: .5;-->
-    <!--color: #f442d7;-->
-    color: black;
+    /**<!--opacity: .5;-->**/
+    /**<!--color: #f442d7;-->**/
+    /**color: black;**/
 }
 
 .logo {
@@ -135,7 +135,8 @@ a:hover {
 /* ABOUT */
 .about {
     background-image: url(../images/deniz-altindas-38128.jpg);
-    height: 800px;
+    /**height: 800px;**/
+    height: 900px;
     resize: no-repeat;
     background-size: cover;
     text-align: center;
@@ -148,10 +149,10 @@ a:hover {
 .about h1 {
     padding-top: 15%;
     text-align: center;
-    opacity: .99;
+    /**opacity: .99;**/
     font-weight: bold;
     font-size: 2rem;
-    position: relative;
+    /**position: relative;**/
 }
 
 #informa {
@@ -159,17 +160,26 @@ a:hover {
 }
 
 @media screen and (min-width: 601px) and (max-width: 960px) {
+    .about {
+        height: 675px;
+    }
+    
     .about h1 {
         padding-top: 20%;
         font-size: 1.6rem;
     }
     #informa {
-        font-size: 1.18rem;
+        /**font-size: 1.18rem;**/
+        font-size: 1.25rem;
     }
 }
 
 
 @media screen and (max-width: 600px){
+    .about {
+        height: 675px;
+    }
+    
     .about h1 {
         padding-top: 18%;
         padding-left: 5%;
@@ -178,7 +188,8 @@ a:hover {
         
     }   
     #informa {
-        font-size: 1.18rem;
+        /**font-size: 1.18rem;**/
+        font-size: 1.25rem;
         padding-top: 1%;
         float: left;
     }
@@ -192,7 +203,8 @@ a:hover {
     width: 100%;
     color: #4D4D4D;
     /*height: 850px;*/
-    height: 650px;
+    /**height: 650px;**/
+    height: 800px;
     text-align: center;
     float: left;
     margin: 0 auto;
@@ -206,7 +218,7 @@ a:hover {
 .services h1 {
     width: 30%;
     margin: 0 auto;
-    padding-top: 2.5%;
+    padding-top: 4%;
     padding-bottom: 2%;
 }
 
@@ -220,6 +232,7 @@ a:hover {
     padding-left: 0%;
 }
 
+/**
 .servicesimg {
     width: 8%;
     height: auto;
@@ -229,15 +242,13 @@ a:hover {
     width: 10%;
     height: auto;
   }
-
-@media screen and (max-width: /*700px*/801px){
+**/
+@media screen and (max-width: /*700px*/1150px){
     .services {
         width: 100%;
         height: auto;
-        /*padding-top: 15%;
-        padding-bottom: 15%;*/
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 15%;
+        padding-bottom: 15%;
         overflow: hidden;
     }
 
@@ -255,7 +266,7 @@ a:hover {
         padding-bottom: 5%;
     }
 }
-
+/**
 @media screen and (min-width: /*701px*/601px) and (max-width: 800px) {
     .services {
         /*padding-top: 20%;*/
@@ -263,7 +274,7 @@ a:hover {
         /*padding-bottom: 5%;*/
     }
 } 
-
+/**
 @media screen and (min-width: 801px) and (max-width: /*968*/1600px) {
     .services {
         /*padding-top: 25%;*/
